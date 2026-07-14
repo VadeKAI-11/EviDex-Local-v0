@@ -1,0 +1,2 @@
+export const REQUEST_TILE_WIDTH_PX = 220;
+export const REQUEST_TILE_HEIGHT_PX = 128;
