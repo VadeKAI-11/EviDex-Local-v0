@@ -1,0 +1,51 @@
+test_bedrock_api.ps1
+
+# EviDex Code logs and artifacts
+EviDex Code/logs/
+EviDex Code/**/*.log
+EviDex Code/**/npm-debug.log*
+EviDex Code/**/yarn-debug.log*
+EviDex Code/**/yarn-error.log*
+EviDex Code/**/pnpm-debug.log*
+EviDex Code/**/lerna-debug.log*
+
+# EviDex Code frontend build/deps
+EviDex Code/**/node_modules/
+EviDex Code/dist/
+EviDex Code/dist-ssr/
+EviDex Code/**/*.local
+
+# EviDex Code editor/project files
+EviDex Code/.vscode/*
+!EviDex Code/.vscode/extensions.json
+EviDex Code/.idea/
+EviDex Code/.DS_Store
+EviDex Code/**/*.suo
+EviDex Code/**/*.ntvs*
+EviDex Code/**/*.njsproj
+EviDex Code/**/*.sln
+EviDex Code/**/*.sw?
+
+# EviDex Code backend Python artifacts
+EviDex Code/backend/venv/
+EviDex Code/backend/**/__pycache__/
+EviDex Code/backend/**/*.pyc
+EviDex Code/backend/.system/windows_ca_bundle.pem
+
+# EviDex Code AWS/dev secrets
+EviDex Code/test_bedrock.py
+EviDex Code/.env
+EviDex Code/.env.*
+EviDex Code/**/*.env
+EviDex Code/**/aws_credentials*
+EviDex Code/**/credentials.py
+EviDex Code/**/secrets.py
+
+# EviDex Code Requests
+EviDex Code/requests.log
+EviDex Code/requests-*.log
+EviDex Code/backend/.system/requests/*.json
+
+# Project planning/detail docs
+Scope_Project_Plan.md
+full_app_detail.md
